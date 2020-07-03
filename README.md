@@ -9,10 +9,10 @@ winSCP上传文件到服务器失败，提示permission denied，返回码3
 ### 2.自动执行
 通过在树莓派LX终端输入指令sudo crontab -e后选择方式[2]进行编辑
 将下列代码写入最后，并保存退出
-*/1 * * * * python /home/pi/dht11/tmp.py
+##### */1 * * * * python /home/pi/dht11/tmp.py
 
-*/1 * * * * python /home/pi/dht11/hum.py
+##### */1 * * * * python /home/pi/dht11/hum.py
 
-*/1 * * * * python /home/pi/dht11/wendu.py
+##### */1 * * * * python /home/pi/dht11/wendu.py
 
 
